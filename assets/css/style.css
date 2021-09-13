@@ -37,8 +37,20 @@ div>p:nth-child(2) {
     border-right: 1px solid black;
 }
 
-div>h2 {
+
+
+.top-container {
+    text-align: justify;
+    text-align: center;
+}
+
+.lead-text {
     display: inline-block;
+    vertical-align: super;
+}
+
+.link {
+    display: inline;
 }
 
 .photo-profile {
