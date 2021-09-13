@@ -37,6 +37,10 @@ div>p:nth-child(2) {
     border-right: 1px solid black;
 }
 
+.top-container {
+    display: inline-block;
+}
+
 .photo-profile {
     width: 100px;
     height: 100px;
