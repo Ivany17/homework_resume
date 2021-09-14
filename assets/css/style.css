@@ -3,27 +3,13 @@
 }
 
 .cards-container {
-    text-align: center;
-    --main-color: dodgerblue;
-}
-
-.title-container {
-    color: var(--main-color);
-}
-
-.card-wrapper {
-    --img-size: 140px;
-    display: inline-block;
-    min-width: calc(var(--img-size)*2);
-    width: 100%;
-    max-width: calc(var(--img-size)*3);
-
-    border: 1px solid var(--main-color);
-    margin: 15px;
-
-    text-align: center;
+    width: 800px;
+    margin: 0 auto;
     font-family: sans-serif;
-    font-size: 14px;
+}
+
+.card-content {
+    text-align: center;
 }
 
 div>p {
@@ -37,16 +23,18 @@ div>p:nth-child(2) {
     border-right: 1px solid black;
 }
 
-
-
 .top-container {
     text-align: justify;
     text-align: center;
+    border-top: 3px solid black;
 }
 
 .lead-text {
     display: inline-block;
     vertical-align: super;
+    font-size: 28px;
+    font-weight: 100;
+    margin: 8px;
 }
 
 .link {
