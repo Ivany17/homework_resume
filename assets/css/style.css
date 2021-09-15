@@ -3,7 +3,7 @@
 }
 
 .cards-container {
-    width: 800px;
+    width: 725px;
     margin: 0 auto;
     font-family: sans-serif;
 }
@@ -12,13 +12,13 @@
     text-align: center;
 }
 
-div>p {
+.undertext>p {
     display: inline-block;
     padding-left: 10px;
     padding-right: 10px;
 }
 
-div>p:nth-child(2) {
+.undertext>p:nth-child(2) {
     border-left: 1px solid black;
     border-right: 1px solid black;
 }
@@ -27,12 +27,13 @@ div>p:nth-child(2) {
     text-align: justify;
     text-align: center;
     border-top: 3px solid black;
+    border-bottom: 1px solid black;
 }
 
 .lead-text {
     display: inline-block;
     vertical-align: super;
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 100;
     margin: 8px;
 }
@@ -115,4 +116,25 @@ div>p:nth-child(2) {
 
 .address-user img {
     width: 16px;
+}
+
+.skills {
+    margin-top: 30px;
+    padding-left: 15px;
+    line-height: 0px;
+    font-size: 28px;
+    font-weight: 100;
+    border-top: 3px solid black;
+    border-bottom: 1px solid black;
+}
+
+.experience {
+    margin-top: 30px;
+    padding-left: 15px;
+    line-height: 0px;
+    font-weight: 900;
+    font-size: 28px;
+    font-weight: 100;
+    border-top: 3px solid black;
+    border-bottom: 1px solid black;
 }
