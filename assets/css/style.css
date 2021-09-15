@@ -5,7 +5,7 @@
 .cards-container {
     width: 725px;
     margin: 0 auto;
-    font-family: sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .card-content {
@@ -16,6 +16,7 @@
     display: inline-block;
     padding-left: 10px;
     padding-right: 10px;
+    color: grey;
 }
 
 .undertext>p:nth-child(2) {
@@ -26,16 +27,28 @@
 .top-container {
     text-align: justify;
     text-align: center;
-    border-top: 3px solid black;
-    border-bottom: 1px solid black;
+    color: grey;
+    border-top: 4px solid grey;
+    border-bottom: 1px solid grey;
 }
 
 .lead-text {
     display: inline-block;
     vertical-align: super;
-    font-size: 25px;
+    color: grey;
+    font-size: 26px;
     font-weight: 100;
     margin: 8px;
+    margin-left: 0;
+}
+
+.middle-container {
+    color: grey;
+    line-height: 20px;
+}
+
+.middle-container b {
+    color: black;
 }
 
 .link {
@@ -57,7 +70,7 @@
 }
 
 .full-name-user {
-    max-width: 60%;
+    font-size: 40px;
     margin: 0 auto;
 }
 
@@ -76,14 +89,6 @@
     color: white;
     text-transform: capitalize;
     font-size: 1em;
-}
-
-.follow-bg {
-    background-color: forestgreen;
-}
-
-.main-bg {
-    background-color: var(--main-color);
 }
 
 .text-inline {
@@ -119,22 +124,38 @@
 }
 
 .skills {
+    font-family: 'Ubuntu', sans-serif;
     margin-top: 30px;
-    padding-left: 15px;
     line-height: 0px;
-    font-size: 28px;
-    font-weight: 100;
-    border-top: 3px solid black;
-    border-bottom: 1px solid black;
+    font-size: 25px;
+    font-weight: 900;
+    border-top: 4px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.skills-container p {
+    color: grey;
+}
+
+.skills-container li {
+    color: black;
+}
+
+.skills-container span {
+    color: grey;
 }
 
 .experience {
-    margin-top: 30px;
-    padding-left: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 50px;
     line-height: 0px;
+    font-size: 25px;
     font-weight: 900;
-    font-size: 28px;
-    font-weight: 100;
-    border-top: 3px solid black;
-    border-bottom: 1px solid black;
+    border-top: 4px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.experience-container span {
+    color: grey;
+    line-height: 20px;
 }
