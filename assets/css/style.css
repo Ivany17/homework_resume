@@ -12,6 +12,24 @@
     text-align: center;
 }
 
+.photo-profile {
+    width: 100px;
+    height: 100px;
+    margin-top: calc(var(--img-size)/2*-1);
+    margin-bottom: 5px;
+    padding: 5px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+    object-position: top;
+}
+
+.full-name-user {
+    font-size: 42px;
+    margin: 0 auto;
+}
+
 .undertext>p {
     display: inline-block;
     padding-left: 10px;
@@ -26,14 +44,14 @@
 
 .top-container {
     text-align: justify;
-    text-align: center;
     color: grey;
     border-top: 4px solid grey;
     border-bottom: 1px solid grey;
 }
 
 .top-container img {
-    border: 4px solid black;
+    background-color: black;
+    border: 3px solid black;
     border-radius: 50%;
 }
 
@@ -41,9 +59,10 @@
     display: inline-block;
     vertical-align: super;
     color: grey;
-    font-size: 26px;
+    font-size: 25px;
     font-weight: 100;
     margin: 8px;
+    margin-right: 17px;
     margin-left: 0;
 }
 
@@ -54,88 +73,6 @@
 
 .middle-container b {
     color: black;
-}
-
-.link {
-    display: inline;
-}
-
-.photo-profile {
-    width: 100px;
-    height: 100px;
-    margin-top: calc(var(--img-size)/2*-1);
-    margin-bottom: 5px;
-    padding: 5px;
-
-    border-radius: 50%;
-
-    object-fit: cover;
-    object-position: top;
-
-}
-
-.full-name-user {
-    font-size: 40px;
-    margin: 0 auto;
-}
-
-.btn-container {
-    margin: 0 30px;
-    padding: 10px 0;
-    border-top: 1px solid #eeeeee;
-    border-bottom: 1px solid #eeeeee;
-}
-
-.btn {
-    max-width: 40%;
-    padding: 0.3em 0.5em;
-    border: none;
-    border-radius: 3px;;
-    color: white;
-    text-transform: capitalize;
-    font-size: 1em;
-}
-
-.text-inline {
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-}
-
-.card-text {
-    padding: 0px 30px;
-    font-style: 0.9em;
-    line-height: 1.5em;
-}
-
-.footer-bg {
-    height: calc(var(--img-size)*0.5);
-    padding-top: 22px;
-}
-
-.footer-bg img {
-    width: 30px;;
-}
-
-.address-user {
-    font-size: 16px;
-    text-align: center;
-    margin-bottom: 15px;
-    margin-top: 10px;
-}
-
-.address-user img {
-    width: 16px;
-}
-
-.skills {
-    font-family: 'Ubuntu', sans-serif;
-    margin-top: 30px;
-    line-height: 0px;
-    font-size: 25px;
-    font-weight: 900;
-    border-top: 4px solid grey;
-    border-bottom: 1px solid grey;
 }
 
 .skills-container p {
@@ -150,9 +87,9 @@
     color: grey;
 }
 
-.experience {
+.skills-name {
     font-family: 'Ubuntu', sans-serif;
-    margin-top: 50px;
+    margin-top: 30px;
     line-height: 0px;
     font-size: 25px;
     font-weight: 900;
@@ -164,3 +101,14 @@
     color: grey;
     line-height: 20px;
 }
+
+.experience-name {
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 50px;
+    line-height: 0px;
+    font-size: 25px;
+    font-weight: 900;
+    border-top: 4px solid grey;
+    border-bottom: 1px solid grey;
+}
+
